@@ -26,7 +26,7 @@ echo "p1c2_2024_P1:p1c2_2024_P1" | sudo chpasswd
 echo "ajustamos los permisos"
 sudo chmod -R 750 /Examenes-UTN/alumno_1
 sudo chmod -R 760 /Examenes-UTN/alumno_2
-sudo chmos -R 700 /Examenes-UTN/alumno_3
+sudo chmod -R 700 /Examenes-UTN/alumno_3
 
 echo "Ajustamos los dueños"
 sudo chown -R p1c2_2024_A1:p1c2_2024_A1 /Examenes-UTN/alumno_1  
